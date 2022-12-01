@@ -117,6 +117,7 @@
       "id": 1,
       "title": "五股牛奶棉-50g",
       "price": "20",
+      "isClose": false,
       "isRecommend": true,
       "styles": [
         {
@@ -147,6 +148,7 @@
     {
       "title": "四股牛奶棉-50g",
       "price": "18",
+      "isClose": false,
       "isRecommend": true,
       "styles": [
         {
@@ -178,6 +180,7 @@
     {
       "title": "三股牛奶棉-50g",
       "price": "12",
+      "isClose": false,
       "isRecommend": false,
       "styles": [
         {
@@ -197,6 +200,7 @@
     {
       "title": "16股情人棉-200g",
       "price": "30",
+      "isClose": false,
       "isRecommend": true,
       "styles": [
         {
@@ -228,6 +232,7 @@
     {
       "title": "超值鉤針套裝",
       "price": "88",
+      "isClose": false,
       "isRecommend": false,
       "styles": [],
       "type": "鉤針",
@@ -240,6 +245,7 @@
       "price": "13",
       "isRecommend": false,
       "styles": [],
+      "isClose": false,
       "type": "配件",
       "sellNum": 20,
       "cover": "https://github.com/panduola666/2022JS-/blob/main/public/images/cotton.jpg?raw=true",
