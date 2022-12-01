@@ -1,27 +1,32 @@
 {
   "users": [
     {
-      "email": "adddmin@gmail.com",
-      "password": "$2a$10$HIOl1rrsNtZ3e52CykOwvOsEvvGqUItczo.iLb2JWKCnajGPDDZh6",
-      "id": 1,
-      "userName": "圈圈",
-      "isCreator": "false",
-      "isAdmin": "true",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$OFQXNW7wRV0hGhJ0NL/2seVLSLeE6K4UnRqzFJfD/mmRwMv.LuphS",
+      "userName": "admin",
+      "isCreator": false,
+      "isAdmin": true,
       "shoppingCar": [],
       "saveArticles": {
-        "worksId": [],
-        "articlesId": []
+        "worksId": [
+          2,
+          1
+        ],
+        "articlesId": [
+          1
+        ]
       },
       "boughtArticles": [
         1
       ],
-      "phoneNumber": "09",
-      "barcode": "",
+      "phoneNumber": "0913221312",
+      "barcode": "/123dwsd",
       "creditCard": {
         "cardNumber": "",
         "expiryDate": "/",
         "securityCode": ""
-      }
+      },
+      "id": 1
     },
     {
       "email": "panduola666@gmail.com",
@@ -82,42 +87,14 @@
         "expiryDate": "/",
         "securityCode": ""
       }
-    },
-    {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$OFQXNW7wRV0hGhJ0NL/2seVLSLeE6K4UnRqzFJfD/mmRwMv.LuphS",
-      "userName": "admin",
-      "isCreator": false,
-      "isAdmin": true,
-      "shoppingCar": [],
-      "saveArticles": {
-        "worksId": [
-          2,
-          1
-        ],
-        "articlesId": [
-          1
-        ]
-      },
-      "boughtArticles": [
-        1
-      ],
-      "phoneNumber": "0913221312",
-      "barcode": "/123dwsd",
-      "creditCard": {
-        "cardNumber": "",
-        "expiryDate": "/",
-        "securityCode": ""
-      },
-      "id": 4
     }
   ],
   "goods": [
     {
       "id": 1,
+      "isClose": false,
       "title": "五股牛奶棉-50g",
       "price": "20",
-      "isClose": false,
       "isRecommend": true,
       "styles": [
         {
@@ -243,9 +220,9 @@
     {
       "title": "DIY手工玩偶填充棉",
       "price": "13",
+      "isClose": false,
       "isRecommend": false,
       "styles": [],
-      "isClose": false,
       "type": "配件",
       "sellNum": 20,
       "cover": "https://github.com/panduola666/2022JS-/blob/main/public/images/cotton.jpg?raw=true",
@@ -315,7 +292,7 @@
         ]
       ],
       "userId": 2,
-      "isClose": false,
+      "isClose": true,
       "id": 8
     },
     {
@@ -341,7 +318,7 @@
         ]
       ],
       "userId": 2,
-      "isClose": false,
+      "isClose": true,
       "id": 9
     }
   ],
@@ -388,7 +365,7 @@
   "works": [
     {
       "saveNum": 113,
-      "scanNum": 42,
+      "scanNum": 43,
       "img": [
         "https://github.com/panduola666/2022JS-/blob/main/public/images/cakeBag.jpg?raw=true",
         "https://github.com/panduola666/2022JS-/blob/main/public/images/cakeBag.jpg?raw=true"
